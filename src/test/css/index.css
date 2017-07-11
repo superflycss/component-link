@@ -1,0 +1,48 @@
+@import "@superflycss/foundation";
+@import "../../main/css/index.css";
+@import "@superflycss/utilities-fonts";
+@import "@superflycss/utilities-layout";
+@import "@superflycss/utilities-colors";
+@import "@superflycss/component-display";
+@import "@superflycss/component-header";
+@import "@superflycss/component-body";
+
+/** Define a color palette */
+:root {
+  /** Header */
+  --Palette--Header-background-color: #F2F2F2;
+  --Palette--Link-text-color: #1AC0BA;
+  --Palette--Link-border-color: #1AC0BA;
+  --Palette--Link_onHover-text-color: #e91eaa;
+  --Palette--Link_onHover-border-color: #e91eaa;
+  --Palette--Link_onVisited-text-color: #13e0ff;
+  --Palette--Link_onVisited-border-color: #13e0ff;
+
+  /** Test */
+  --Palette--Test-background-color: #CDDC38;
+}
+
+.u-test-background-color {
+    background-color: var(--Palette--Test-background-color);
+}
+
+:root {
+  --Header-background-color: var(--Palette--Header-background-color);
+  --Header-padding-bottom: 3rem;
+
+  --Link-padding-left: 5rem;
+  --Link-padding-right: 5rem;
+  --Link-padding-top: 0.5rem;
+  --Link-padding-bottom: 0.5rem;
+  --Link-border-radius: 4px;
+  --Link-border-color: var(--Palette--Link-border-color);
+  --Link-text-color: var(--Palette--Link-text-color);
+  --Link-border-width: 3px;
+
+  --Link_onHover-text-decoration: none;
+  --Link_onHover-text-color: var(--Palette--Link_onHover-text-color);
+  --Link_onHover-border-color: var(--Palette--Link_onHover-border-color);
+
+  --Link_onVisited-text-color: var(--Palette--Link_onVisited-text-color);
+  --Link_onVisited-border-color: var(--Palette--Link_onVisited-border-color);
+}

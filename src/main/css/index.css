@@ -1,0 +1,87 @@
+/** @define component  */
+
+/*! | superflycss/component-link |
+    | MIT License                |
+    | https://github.com/superflycss/component-link/blob/master/LICENSE.md */
+
+@import "@superflycss/variables-colors";
+
+:root {
+  --Link-text-color: var(--color-link);
+  --Link-text-decoration: none;
+  --Link-font-size: 1.5rem;
+  --Link-font-family: sans-serif;
+  --Link-font-weight: 500;
+  --Link-display: inline-block;
+  --Link-padding-left: 1rem;
+  --Link-padding-right: 1rem;
+  --Link-margin-bottom: 3rem;
+  --Link-padding-left: 5rem;
+  --Link-padding-right: 5rem;
+  --Link-padding-top: 0.5rem;
+  --Link-padding-bottom: 0.5rem;
+  --Link-border-width: 0px;
+  --Link-border-style: solid;
+  --Link-border-color: var(--Link-text-color);
+  --Link-border-radius: 4px;
+
+  --Link_onHover-text-decoration: none;
+  --Link_onHover-text-color: var(--color-link);
+  --Link_onHover-border-color: currentColor;
+  --Link_onHover-border-width: 3px;
+
+  --Link_onActive-text-decoration: none;
+  --Link_onActive-text-color: var(--Link-text-color);
+  --Link_onActive-border-color: var(--Link-text-color);
+  --Link_onActive-border-width: 3px;
+
+  --Link_onVisited-text-decoration: none;
+  --Link_onVisited-text-color: var(--Link-text-color);
+  --Link_onVisited-border-color: var(--Link-text-color);
+  --Link_onVisited-border-width: var(--Link-border-width);
+
+  --Link {
+    color: var(--Link-text-color);
+    text-decoration: var(--Link-text-decoration);
+    font-size: var(--Link-font-size);
+    font-family: var(--Link-font-family);
+    font-weight: var(--Link-font-weight);
+    display: var(--Link-display);
+    padding-left: var(--Link-padding-left);
+    padding-right: var(--Link-padding-right);
+    margin-bottom: var(--Link-margin-bottom);
+    padding-left: var(--Link-padding-left);
+    padding-right: var(--Link-padding-right);
+    padding-top: var(--Link-padding-top);
+    padding-bottom: var(--Link-padding-bottom);
+    border-width: var(--Link-border-width);
+    border-style: var(--Link-border-style);
+    border-color: var(--Link-border-color);
+    border-radius: var(--Link-border-radius);
+  }
+}
+
+.Link {
+  @apply(--Link);
+}
+
+.Link:visited {
+  text-decoration: var(--Link_onVisited-text-decoration);
+  color: var(--Link_onVisited-text-color);
+  border-color: var(--Link_onVisited-border-color);
+  border-width: var(--Link_onVisited-border-width);
+}
+
+.Link:hover {
+  text-decoration: var(--Link_onHover-text-decoration);
+  color: var(--Link_onHover-text-color);
+  border-color: var(--Link_onHover-border-color);
+  border-width: var(--Link_onHover-border-width);
+}
+
+.Link:active {
+  text-decoration: var(--Link_onActive-text-decoration);
+  color: var(--Link_onActive-text-color);
+  border-color: var(--Link_onActive-border-color);
+  border-width: var(--Link_onActive-border-width);
+}
