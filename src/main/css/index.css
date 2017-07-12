@@ -18,8 +18,8 @@
   --Link-margin-bottom: 3rem;
   --Link-padding-left: 5rem;
   --Link-padding-right: 5rem;
-  --Link-padding-top: 0.5rem;
-  --Link-padding-bottom: 0.5rem;
+  --Link-padding-top: 0rem;
+  --Link-padding-bottom: 0rem;
   --Link-border-width: 0px;
   --Link-border-style: solid;
   --Link-border-color: var(--Link-text-color);
@@ -28,12 +28,12 @@
   --Link_onHover-text-decoration: none;
   --Link_onHover-text-color: var(--color-link);
   --Link_onHover-border-color: currentColor;
-  --Link_onHover-border-width: 3px;
+  --Link_onHover-border-width: var(--Link-border-width);
 
   --Link_onActive-text-decoration: none;
   --Link_onActive-text-color: var(--Link-text-color);
   --Link_onActive-border-color: var(--Link-text-color);
-  --Link_onActive-border-width: 3px;
+  --Link_onActive-border-width: var(--Link-border-width);
 
   --Link_onVisited-text-decoration: none;
   --Link_onVisited-text-color: var(--Link-text-color);
