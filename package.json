@@ -32,7 +32,7 @@
     "@superflycss/utilities-colors": "^3.0.6",
     "@superflycss/utilities-format": "^1.1.1",
     "@superflycss/utilities-layout": "^4.0.3",
-    "lite-server": "^2.4.0",
+    "lite-server": "^2.5.0",
     "npm-check-updates": "^2.14.2"
   },
   "dependencies": {
