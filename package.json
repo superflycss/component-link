@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-link",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Link component",
   "main": "src/main/css/index.css",
   "scripts": {
