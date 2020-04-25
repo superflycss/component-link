@@ -10,20 +10,20 @@
 /** Define a color palette */
 :root {
   /** Header */
-  --Palette--Header-background-color: #F2F2F2;
-  --Palette--Link-text-color: #1AC0BA;
-  --Palette--Link-border-color: #1AC0BA;
+  --Palette--Header-background-color: #f2f2f2;
+  --Palette--Link-text-color: #1ac0ba;
+  --Palette--Link-border-color: #1ac0ba;
   --Palette--Link_onHover-text-color: #e91eaa;
   --Palette--Link_onHover-border-color: #e91eaa;
   --Palette--Link_onVisited-text-color: #13e0ff;
   --Palette--Link_onVisited-border-color: #13e0ff;
 
   /** Test */
-  --Palette--Test-background-color: #CDDC38;
+  --Palette--Test-background-color: #cddc38;
 }
 
 .u-test-background-color {
-    background-color: var(--Palette--Test-background-color);
+  background-color: var(--Palette--Test-background-color);
 }
 
 :root {
@@ -45,4 +45,8 @@
 
   --Link_onVisited-text-color: var(--Palette--Link_onVisited-text-color);
   --Link_onVisited-border-color: var(--Palette--Link_onVisited-border-color);
+
+  --Link_onHover-background-color: white;
+  --Link_onActive-background-color: yellow;
+  --Link_onVisited-background-color: brown;
 }
