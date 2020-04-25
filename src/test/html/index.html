@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+
+{% import "@superflycss/component-test/TestHead.njk" as TestHead %}
+{% import "@superflycss/component-test/TestHeader.njk" as TestHeader %}
+{% import "@superflycss/component-test/TestTemplate.njk" as Test %}
+
+{{ TestHead.component( 'link' ) }}
+
+<body class="Body">
+  <header class="Header--column">
+    <h1 class="Display--fs400fw700 u-font-lato">Component Link Test</h1>
+    <a class="Link" href="https://github.com/superflycss/component-link/">Github</a>
+  </header>
+</body>
+</html>
